@@ -400,9 +400,9 @@ message.guild.createChannel(`🎮》LOL`, 'voice')
 });
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'Kurucu') {  // İstediğiniz Komut
-       message.member.addRole("537405149958766592") //Rolü bir yerde bahsedin sonra sağ tıklayıp İD'sini alın
-    msg.reply('Kurucu Rolünü Başarıyla Aldın.'); //Komutu Yazınca cevap ne yazsın?
+  if (msg.content.toLowerCase() === 'anan') {  // İstediğiniz Komut
+       message.member.addRole("537417373100015616") //Rolü bir yerde bahsedin sonra sağ tıklayıp İD'sini alın
+    msg.reply('anan Rolünü Başarıyla Aldın.'); //Komutu Yazınca cevap ne yazsın?
   }
 });
 
